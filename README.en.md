@@ -6,7 +6,7 @@
 
 BoatSales brings digital price negotiation into the sales journey of boat dealers and yacht brokers. Buyers review a vessel and its condition report, make an offer and progress towards a sale with the seller.
 
-**Status: pilot preparation. This repository is a private review version. Making it public requires the owner's separate approval.**
+**Status: pilot preparation. This public repository contains a product presentation and static website, not an operational boat sales service.**
 
 ![BoatSales lifestyle imagery](site/yacht-lifestyle.png)
 
@@ -58,7 +58,7 @@ There is no separate BoatSales demo here. Customer data, internal pricing bounda
 
 ## Next steps
 
-1. Owner reviews the content and separately approves any public release.
+1. Prospective pilot partners explore the product presentation and discuss their needs as sellers.
 2. Pilot markets, responsibilities and commercial terms are agreed.
 3. The operational marine sales service and required connections are verified before use.
 

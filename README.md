@@ -6,7 +6,7 @@
 
 BoatSales tuo digitaalisen hintaneuvottelun veneliikkeiden ja jahtivälittäjien myyntipolkuun. Ostaja tutustuu veneeseen ja sen kuntoraporttiin, tekee tarjouksen ja etenee myyjän kanssa kohti kauppaa.
 
-**Tila: pilotin valmistelu. Tämä repo on yksityinen tarkistusversio. Julkistaminen edellyttää omistajan erillistä hyväksyntää.**
+**Tila: pilotin valmistelu. Tämä julkinen repo sisältää tuote-esittelyn ja staattisen verkkosivuston, ei toimivaa veneiden myyntipalvelua.**
 
 ![BoatSalesin veneilykuvasto](site/yacht-lifestyle.png)
 
@@ -58,7 +58,7 @@ Erillistä BoatSales-demoa ei julkaista tässä repossa. Asiakasdataa, sisäisi�
 
 ## Seuraavat vaiheet
 
-1. Omistaja tarkistaa sisällön ja hyväksyy mahdollisen julkistamisen erikseen.
+1. Pilottikumppanit tutustuvat tuote-esittelyyn ja keskustelevat tarpeistaan myyjän näkökulmasta.
 2. Pilotin markkinat, vastuut ja kaupalliset ehdot sovitaan.
 3. Varsinainen veneiden myyntipalvelu ja tarvittavat yhteydet varmennetaan ennen käyttöönottoa.
 

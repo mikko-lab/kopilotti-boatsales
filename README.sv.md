@@ -6,7 +6,7 @@
 
 BoatSales för in digital prisförhandling i båthandlares och yachtmäklares försäljningsprocess. Köparen läser om båten och tar del av besiktningsrapporten, lämnar ett bud och går vidare mot en affär med säljaren.
 
-**Status: förberedelse för pilot. Detta repo är en privat granskningsversion. Offentliggörande kräver ägarens separata godkännande.**
+**Status: förberedelse för pilot. Detta offentliga repo innehåller en produktpresentation och en statisk webbplats, inte en fungerande båtförsäljningstjänst.**
 
 ![BoatSales inspirationsbild](site/yacht-lifestyle.png)
 
@@ -58,7 +58,7 @@ Ingen separat BoatSales-demo ingår. Kunddata, interna prisgränser, motorns imp
 
 ## Nästa steg
 
-1. Ägaren granskar innehållet och godkänner ett eventuellt offentliggörande separat.
+1. Potentiella pilotpartners tar del av produktpresentationen och diskuterar sina behov som säljare.
 2. Pilotens marknader, ansvar och affärsvillkor avtalas.
 3. Den operativa båttjänsten och nödvändiga anslutningar verifieras före användning.
 
