@@ -4,6 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const assets = {
   '/': ['index.html', 'text/html; charset=utf-8'],
+  '/404.html': ['404.html', 'text/html; charset=utf-8'],
   '/privacy.html': ['privacy.html', 'text/html; charset=utf-8'],
   '/style.css': ['style.css', 'text/css; charset=utf-8'],
   '/kopilotti-mark.svg': ['kopilotti-mark.svg', 'image/svg+xml'],
