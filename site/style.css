@@ -10,3 +10,17 @@
 /* Keep translated navigation and long headings comfortable on small screens. */
 .header-inner>nav:not(.languages){flex-wrap:wrap}.footer-top nav{max-width:430px;row-gap:14px}.journey h3{overflow-wrap:break-word}.credential-grid>div{padding-right:12px}
 @media(max-width:380px){html[lang=fi] .hero h1,html[lang=sv] .hero h1,h1{font-size:35px}.journey{grid-template-columns:1fr}.languages a{min-width:29px}.wrap{width:calc(100% - 32px)}}
+
+/* Self-hosted product film; keep the approved portrait framing intact. */
+.boats-video-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,432px);column-gap:clamp(32px,6vw,100px);row-gap:20px;align-items:center}
+.boats-video-copy{grid-column:1;grid-row:1;align-self:end}
+.boats-video-copy .intro{margin-bottom:20px}
+.boats-video-status{font-size:14px;color:var(--secondary);margin:0}
+.boats-video-figure{grid-column:2;grid-row:1 / 3;margin:0;min-width:0}
+.boats-video{display:block;width:100%;height:auto;aspect-ratio:4 / 5;object-fit:contain;background:var(--deep);border:1px solid #101b3d24;border-radius:14px;box-shadow:0 20px 60px #101b3d18}
+.boats-video-figure figcaption{font-size:12px;line-height:1.7;color:var(--secondary);margin:16px 0 8px}
+.boats-video-download{font-size:12px}
+.boats-video-transcript{grid-column:1;grid-row:2;align-self:start;border-top:1px solid var(--line)}
+.boats-video-transcript summary{font-size:14px}
+.boats-video-transcript p{font-size:14px}
+@media(max-width:760px){.boats-video-grid{display:flex;flex-direction:column;align-items:stretch;gap:28px}.boats-video-figure{width:100%;max-width:432px;align-self:center}.boats-video-transcript{width:100%}}
