@@ -10,6 +10,14 @@ BoatSales tuo digitaalisen hintaneuvottelun veneliikkeiden ja jahtivälittäjien
 
 ![BoatSalesin veneilykuvasto](site/yacht-lifestyle.png)
 
+## Katso BoatSalesin esittelyvideo
+
+<a href="https://boats.kopilotti.online/fi/#video"><img src="site/media/boatsales-video-poster-2026-09.jpg" width="360" alt="Kopilotti BoatSales -esittelyvideo: Your next buyer may already be awake."></a>
+
+[▶ Katso esittelyvideo (1:13)](https://boats.kopilotti.online/fi/#video) · [Lataa video (MP4, 16 Mt)](site/media/boatsales-introduction-2026-09.mp4)
+
+Englanninkielinen synteettinen kerronta · englanninkielinen tekstitys mukana · 1 min 13 s. BoatSales on pilotin valmisteluvaiheessa. Video havainnollistaa suunniteltua käyttökokemusta.
+
 ## Sama Sales, oma vene-sovellus
 
 BoatSales käyttää samaa neuvottelumoottoria kuin Kopilotti Sales. Veneiden tiedot, kuntoraportit ja venekaupan asiakaspolku muodostavat oman sovelluksensa. Myyjä määrittää kaupalliset ehdot ja käsittelee henkilökohtaista harkintaa vaativat tilanteet.

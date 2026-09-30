@@ -10,6 +10,14 @@ BoatSales brings digital price negotiation into the sales journey of boat dealer
 
 ![BoatSales lifestyle imagery](site/yacht-lifestyle.png)
 
+## Watch the BoatSales introduction
+
+<a href="https://boats.kopilotti.online/#video"><img src="site/media/boatsales-video-poster-2026-09.jpg" width="360" alt="Kopilotti BoatSales video: Your next buyer may already be awake."></a>
+
+[▶ Watch the video (1:13)](https://boats.kopilotti.online/#video) · [Download the video (MP4, 16 MB)](site/media/boatsales-introduction-2026-09.mp4)
+
+English synthetic narration · English subtitles included · 1 min 13 sec. BoatSales is in pilot preparation. The video illustrates the intended experience.
+
 ## The same Sales foundation, a dedicated marine application
 
 BoatSales uses the same negotiation engine as Kopilotti Sales. Vessel details, condition reports and the marine buying journey form a dedicated application. The seller defines commercial terms and handles cases requiring personal judgement.

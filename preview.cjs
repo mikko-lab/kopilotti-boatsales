@@ -12,6 +12,8 @@ const assets = {
   '/kopilotti-mark.svg': ['kopilotti-mark.svg', 'image/svg+xml'],
   '/inter-variable.woff2': ['inter-variable.woff2', 'font/woff2'],
   '/yacht-lifestyle.png': ['yacht-lifestyle.png', 'image/png'],
+  '/media/boatsales-introduction-2026-09.mp4': ['media/boatsales-introduction-2026-09.mp4', 'video/mp4'],
+  '/media/boatsales-video-poster-2026-09.jpg': ['media/boatsales-video-poster-2026-09.jpg', 'image/jpeg'],
 };
 for (const language of ['fi','sv']) {
   assets[`/${language}/`] = [`${language}/index.html`, 'text/html; charset=utf-8'];
@@ -24,7 +26,26 @@ const server = http.createServer((req, res) => {
   const asset = assets[pathname];
   if (!['GET','HEAD'].includes(req.method) || !asset) {res.writeHead(404,headers);return res.end('Not found');}
   const data = fs.readFileSync(path.join(__dirname, 'site', asset[0]));
-  res.writeHead(200, {...headers,'Content-Type':asset[1]});
+  const mediaHeaders = {...headers, 'Content-Type':asset[1], 'Content-Length':data.length};
+  if (asset[1] === 'video/mp4') {
+    mediaHeaders['Accept-Ranges'] = 'bytes';
+    if (req.method === 'GET' && req.headers.range) {
+      const range = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range);
+      const first = range?.[1];
+      const last = range?.[2];
+      const start = first ? Number(first) : Math.max(0, data.length - Number(last));
+      const end = first && last ? Math.min(Number(last), data.length - 1) : data.length - 1;
+      if (!range || (!first && !last) || !Number.isSafeInteger(start) ||
+          !Number.isSafeInteger(end) || start < 0 || start > end || start >= data.length) {
+        res.writeHead(416, {...headers, 'Content-Range':`bytes */${data.length}`});
+        return res.end();
+      }
+      res.writeHead(206, {...mediaHeaders, 'Content-Length':end - start + 1,
+        'Content-Range':`bytes ${start}-${end}/${data.length}`});
+      return res.end(data.subarray(start, end + 1));
+    }
+  }
+  res.writeHead(200, mediaHeaders);
   res.end(req.method === 'HEAD' ? undefined : data);
 });
 server.listen(Number(process.env.PORT || 4318),'127.0.0.1',()=>console.log('BoatSales presentation: http://127.0.0.1:' + server.address().port));

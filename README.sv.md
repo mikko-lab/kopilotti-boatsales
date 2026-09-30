@@ -10,6 +10,14 @@ BoatSales för in digital prisförhandling i båthandlares och yachtmäklares f�
 
 ![BoatSales inspirationsbild](site/yacht-lifestyle.png)
 
+## Se BoatSales presentationsvideo
+
+<a href="https://boats.kopilotti.online/sv/#video"><img src="site/media/boatsales-video-poster-2026-09.jpg" width="360" alt="Kopilotti BoatSales presentationsvideo: Your next buyer may already be awake."></a>
+
+[▶ Se presentationsvideon (1:13)](https://boats.kopilotti.online/sv/#video) · [Ladda ner videon (MP4, 16 MB)](site/media/boatsales-introduction-2026-09.mp4)
+
+Syntetisk berättarröst på engelska · engelsk textning ingår · 1 min 13 sek. BoatSales förbereds för pilotanvändning. Videon illustrerar den planerade upplevelsen.
+
 ## Samma Sales-grund, en egen båttjänst
 
 BoatSales använder samma förhandlingsmotor som Kopilotti Sales. Båtuppgifter, besiktningsrapporter och köpresan för båtar bildar en egen applikation. Säljaren bestämmer affärsvillkoren och hanterar situationer som kräver personlig bedömning.
