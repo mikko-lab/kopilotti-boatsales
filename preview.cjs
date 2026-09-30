@@ -4,7 +4,10 @@ const fs = require('node:fs');
 const path = require('node:path');
 const assets = {
   '/': ['index.html', 'text/html; charset=utf-8'],
+  '/404.html': ['404.html', 'text/html; charset=utf-8'],
   '/privacy.html': ['privacy.html', 'text/html; charset=utf-8'],
+  '/robots.txt': ['robots.txt', 'text/plain; charset=utf-8'],
+  '/sitemap.xml': ['sitemap.xml', 'application/xml; charset=utf-8'],
   '/style.css': ['style.css', 'text/css; charset=utf-8'],
   '/kopilotti-mark.svg': ['kopilotti-mark.svg', 'image/svg+xml'],
   '/inter-variable.woff2': ['inter-variable.woff2', 'font/woff2'],
@@ -15,7 +18,7 @@ for (const language of ['fi','sv']) {
   assets[`/${language}/privacy.html`] = [`${language}/privacy.html`, 'text/html; charset=utf-8'];
 }
 const server = http.createServer((req, res) => {
-  const headers = {'X-Content-Type-Options':'nosniff','X-Robots-Tag':'noindex, nofollow','Referrer-Policy':'no-referrer','Cache-Control':'no-store','Content-Security-Policy':"default-src 'self'; script-src 'none'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"};
+  const headers = {'X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer','Cache-Control':'no-store','Content-Security-Policy':"default-src 'self'; script-src 'none'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"};
   if (!/^127\.0\.0\.1:\d+$/.test(req.headers.host || '')) {res.writeHead(403, headers); return res.end('Forbidden');}
   const pathname = new URL(req.url, 'http://127.0.0.1').pathname;
   const asset = assets[pathname];

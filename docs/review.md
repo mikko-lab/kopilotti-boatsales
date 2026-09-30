@@ -10,7 +10,7 @@ Salesin julkisen repon mallista hyödynnettiin tuote-esittelyn rakenne, kieliver
 
 Tähän repoon kuuluvat vain `site/`, kolme tuote-esittelyä, suomenkielisen README:n ohjaussivu, paikallinen `preview.cjs`, lisenssi, tämä tarkistuskuvaus ja pienet Git-asetustiedostot. Fontin lisenssi säilyy omanaan. Hero on aiemmin hyväksytty tekoälyllä luotu kuvitus, ei todellinen myynti-ilmoitus.
 
-Pilotin markkinat, vastuut ja kaupalliset ehdot sovitaan ennen käyttöönottoa. Sivusto ei ota vastaan ostotarjouksia tai maksuja. Sivuston `noindex,nofollow` säilytetään toistaiseksi; hakukonenäkyvyydestä päätetään erikseen. Merkintä ei rajoita pääsyä julkiseen sisältöön. Tämä tekstipäivitys ei sisällä verkkosivuston käyttöönottoa tai verkkotunnuksen muutoksia.
+Pilotin markkinat, vastuut ja kaupalliset ehdot sovitaan ennen käyttöönottoa. Sivusto ei ota vastaan ostotarjouksia tai maksuja. Julkiset FI-, EN- ja SV-esittelysivut voidaan indeksoida; tietosuojasivut ja 404-sivu pysyvät hakutulosten ulkopuolella. Tämä lähdekoodipäivitys ei sisällä verkkosivuston käyttöönottoa tai verkkotunnuksen muutoksia.
 
 ## English
 
@@ -20,7 +20,7 @@ The public Sales repository supplied the presentation structure, language approa
 
 Scope: static website, three product overviews, Finnish README alias, local preview server, license and review notes. The font retains its own license. The approved AI-generated hero is illustrative, not an actual listing.
 
-Pilot markets, responsibilities and commercial terms are agreed before use. The website accepts no purchase offers or payments. The website retains `noindex,nofollow` for now; search engine visibility is a separate decision. These settings do not restrict access to public content. This copy update includes no website deployment or domain changes.
+Pilot markets, responsibilities and commercial terms are agreed before use. The website accepts no purchase offers or payments. The public FI, EN and SV presentation pages may be indexed; privacy pages and the 404 page remain excluded from search results. This source update includes no website deployment or domain changes.
 
 ## Svenska
 
@@ -30,4 +30,4 @@ Sales offentliga repo gav modellen för presentation, språkversioner, propriet�
 
 Innehåll: statisk webbplats, tre produktpresentationer, finsk README-hänvisning, lokal förhandsvisningsserver, licens och granskningsanteckningar. Typsnittet behåller sin licens. Den godkända AI-bilden är en illustration, inte en verklig annons.
 
-Pilotens marknader, ansvar och affärsvillkor avtalas före användning. Webbplatsen tar inte emot köpbud eller betalningar. Webbplatsens `noindex,nofollow` behålls tills vidare; synlighet i sökmotorer beslutas separat. Inställningen begränsar inte åtkomsten till offentligt innehåll. Denna textuppdatering omfattar ingen webbpublicering eller domänändring.
+Pilotens marknader, ansvar och affärsvillkor avtalas före användning. Webbplatsen tar inte emot köpbud eller betalningar. De offentliga presentationssidorna på FI, EN och SV får indexeras; integritetssidorna och 404-sidan hålls utanför sökresultaten. Denna källkodsuppdatering omfattar ingen webbpublicering eller domänändring.
